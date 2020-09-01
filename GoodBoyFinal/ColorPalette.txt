@@ -1,0 +1,9 @@
+Good Guy: (R,G,B)
+	Dark: #17F
+	Lighter: #3CD
+	Lightest: #AFF
+
+Bad Guy:(R,G,B)
+	Dark: #C00
+	Lighter: #F10
+	Lightest: #FF8

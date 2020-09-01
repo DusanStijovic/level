@@ -1,0 +1,274 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 352 400)
+	(text "gameScreen" (rect 5 0 76 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 368 25 380)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "isF0" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "isF0" (rect 21 27 44 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 43 44 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "x[9..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "x[9..0]" (rect 21 59 56 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "y[9..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "y[9..0]" (rect 21 75 56 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "restart" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "restart" (rect 21 91 58 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "Up" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "Up" (rect 21 107 36 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "Down" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "Down" (rect 21 123 55 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "left" (rect 0 0 17 14)(font "Arial" (font_size 8)))
+		(text "left" (rect 21 139 38 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "Right" (rect 0 0 28 14)(font "Arial" (font_size 8)))
+		(text "Right" (rect 21 155 49 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "drawFinished" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "drawFinished" (rect 21 171 98 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "fire" (rect 0 0 18 14)(font "Arial" (font_size 8)))
+		(text "fire" (rect 21 187 39 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "youCanReadGoodBoy" (rect 0 0 126 14)(font "Arial" (font_size 8)))
+		(text "youCanReadGoodBoy" (rect 21 203 147 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "GoodBoyBullety[9..0]" (rect 0 0 119 14)(font "Arial" (font_size 8)))
+		(text "GoodBoyBullety[9..0]" (rect 21 219 140 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "GoodBoyGameOver" (rect 0 0 114 14)(font "Arial" (font_size 8)))
+		(text "GoodBoyGameOver" (rect 21 235 135 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "GoodBoyFinishedReading" (rect 0 0 146 14)(font "Arial" (font_size 8)))
+		(text "GoodBoyFinishedReading" (rect 21 251 167 265)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256))
+	)
+	(port
+		(pt 336 32)
+		(output)
+		(text "R[3..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "R[3..0]" (rect 279 27 315 41)(font "Arial" (font_size 8)))
+		(line (pt 336 32)(pt 320 32)(line_width 3))
+	)
+	(port
+		(pt 336 48)
+		(output)
+		(text "G[3..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "G[3..0]" (rect 278 43 315 57)(font "Arial" (font_size 8)))
+		(line (pt 336 48)(pt 320 48)(line_width 3))
+	)
+	(port
+		(pt 336 64)
+		(output)
+		(text "B[3..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "B[3..0]" (rect 279 59 315 73)(font "Arial" (font_size 8)))
+		(line (pt 336 64)(pt 320 64)(line_width 3))
+	)
+	(port
+		(pt 336 80)
+		(output)
+		(text "valid" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "valid" (rect 290 75 315 89)(font "Arial" (font_size 8)))
+		(line (pt 336 80)(pt 320 80))
+	)
+	(port
+		(pt 336 96)
+		(output)
+		(text "iAmDead" (rect 0 0 50 14)(font "Arial" (font_size 8)))
+		(text "iAmDead" (rect 265 91 315 105)(font "Arial" (font_size 8)))
+		(line (pt 336 96)(pt 320 96))
+	)
+	(port
+		(pt 336 112)
+		(output)
+		(text "sendBullet[9..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "sendBullet[9..0]" (rect 228 107 315 121)(font "Arial" (font_size 8)))
+		(line (pt 336 112)(pt 320 112)(line_width 3))
+	)
+	(port
+		(pt 336 128)
+		(output)
+		(text "ICanSendData" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "ICanSendData" (rect 235 123 315 137)(font "Arial" (font_size 8)))
+		(line (pt 336 128)(pt 320 128))
+	)
+	(port
+		(pt 336 144)
+		(output)
+		(text "BadBoyFinishedReading" (rect 0 0 138 14)(font "Arial" (font_size 8)))
+		(text "BadBoyFinishedReading" (rect 177 139 315 153)(font "Arial" (font_size 8)))
+		(line (pt 336 144)(pt 320 144))
+	)
+	(port
+		(pt 336 160)
+		(output)
+		(text "LDQM" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "LDQM" (rect 281 155 315 169)(font "Arial" (font_size 8)))
+		(line (pt 336 160)(pt 320 160))
+	)
+	(port
+		(pt 336 176)
+		(output)
+		(text "UDQM" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "UDQM" (rect 280 171 315 185)(font "Arial" (font_size 8)))
+		(line (pt 336 176)(pt 320 176))
+	)
+	(port
+		(pt 336 192)
+		(output)
+		(text "A[11..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "A[11..0]" (rect 271 187 315 201)(font "Arial" (font_size 8)))
+		(line (pt 336 192)(pt 320 192)(line_width 3))
+	)
+	(port
+		(pt 336 224)
+		(output)
+		(text "BA0" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "BA0" (rect 291 219 315 233)(font "Arial" (font_size 8)))
+		(line (pt 336 224)(pt 320 224))
+	)
+	(port
+		(pt 336 240)
+		(output)
+		(text "BA1" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "BA1" (rect 291 235 315 249)(font "Arial" (font_size 8)))
+		(line (pt 336 240)(pt 320 240))
+	)
+	(port
+		(pt 336 256)
+		(output)
+		(text "nWE" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "nWE" (rect 290 251 315 265)(font "Arial" (font_size 8)))
+		(line (pt 336 256)(pt 320 256))
+	)
+	(port
+		(pt 336 272)
+		(output)
+		(text "nCAS" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "nCAS" (rect 282 267 315 281)(font "Arial" (font_size 8)))
+		(line (pt 336 272)(pt 320 272))
+	)
+	(port
+		(pt 336 288)
+		(output)
+		(text "nRAS" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "nRAS" (rect 282 283 315 297)(font "Arial" (font_size 8)))
+		(line (pt 336 288)(pt 320 288))
+	)
+	(port
+		(pt 336 304)
+		(output)
+		(text "nCS" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "nCS" (rect 292 299 315 313)(font "Arial" (font_size 8)))
+		(line (pt 336 304)(pt 320 304))
+	)
+	(port
+		(pt 336 320)
+		(output)
+		(text "CLK_in" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "CLK_in" (rect 275 315 315 329)(font "Arial" (font_size 8)))
+		(line (pt 336 320)(pt 320 320))
+	)
+	(port
+		(pt 336 336)
+		(output)
+		(text "CKE" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CKE" (rect 292 331 315 345)(font "Arial" (font_size 8)))
+		(line (pt 336 336)(pt 320 336))
+	)
+	(port
+		(pt 336 208)
+		(bidir)
+		(text "DQ[15..0]" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "DQ[15..0]" (rect 262 203 315 217)(font "Arial" (font_size 8)))
+		(line (pt 336 208)(pt 320 208)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 320 368))
+	)
+)

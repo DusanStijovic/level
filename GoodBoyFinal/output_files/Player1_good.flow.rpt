@@ -1,0 +1,128 @@
+Flow report for Player1_good
+Wed Feb 06 17:59:43 2019
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Flow Summary                                                                    ;
++------------------------------------+--------------------------------------------+
+; Flow Status                        ; Successful - Wed Feb 06 17:59:33 2019      ;
+; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name                      ; Player1_good                               ;
+; Top-level Entity Name              ; Player1_good                               ;
+; Family                             ; Cyclone III                                ;
+; Device                             ; EP3C16F484C6                               ;
+; Timing Models                      ; Final                                      ;
+; Total logic elements               ; 8,481 / 15,408 ( 55 % )                    ;
+;     Total combinational functions  ; 8,181 / 15,408 ( 53 % )                    ;
+;     Dedicated logic registers      ; 2,539 / 15,408 ( 16 % )                    ;
+; Total registers                    ; 2539                                       ;
+; Total pins                         ; 86 / 347 ( 25 % )                          ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 0 / 516,096 ( 0 % )                        ;
+; Embedded Multiplier 9-bit elements ; 0 / 112 ( 0 % )                            ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                              ;
++------------------------------------+--------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/06/2019 17:12:09 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Player1_good        ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                       ;
++-------------------------------------+---------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+---------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 96760845757868.154946952921400        ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                     ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                     ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                            ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                            ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; --          ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --          ; --         ;
++-------------------------------------+---------------------------------------+---------------+-------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:46:13     ; 1.0                     ; 4826 MB             ; 00:00:53                           ;
+; Fitter                    ; 00:00:51     ; 1.5                     ; 5317 MB             ; 00:01:04                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4653 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:07     ; 1.2                     ; 4821 MB             ; 00:00:08                           ;
+; Total                     ; 00:47:13     ; --                      ; --                  ; 00:02:07                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; SD               ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; SD               ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; SD               ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; SD               ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Player1_good -c Player1_good
+quartus_fit --read_settings_files=off --write_settings_files=off Player1_good -c Player1_good
+quartus_asm --read_settings_files=off --write_settings_files=off Player1_good -c Player1_good
+quartus_sta Player1_good -c Player1_good
+
+
+

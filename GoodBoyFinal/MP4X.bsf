@@ -1,0 +1,84 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 232 208)
+	(text "MP4X" (rect 5 0 32 12)(font "Arial" ))
+	(text "inst" (rect 8 128 25 140)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "X0[size-1..0]" (rect 0 0 60 12)(font "Arial" ))
+		(text "X0" (rect 21 27 32 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "X1[size-1..0]" (rect 0 0 60 12)(font "Arial" ))
+		(text "X1" (rect 21 43 32 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "X2[size-1..0]" (rect 0 0 60 12)(font "Arial" ))
+		(text "X2" (rect 21 59 32 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "X3[size-1..0]" (rect 0 0 60 12)(font "Arial" ))
+		(text "X3" (rect 21 75 32 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 64 144)
+		(input)
+		(text "S1" (rect 0 0 12 12)(font "Arial" ))
+		(text "S1" (rect 56 104 68 116)(font "Arial" )(vertical))
+		(line (pt 64 144)(pt 64 128))
+	)
+	(port
+		(pt 112 144)
+		(input)
+		(text "S0" (rect 0 0 12 12)(font "Arial" ))
+		(text "S0" (rect 104 104 116 116)(font "Arial" )(vertical))
+		(line (pt 112 144)(pt 112 128))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "Y[size-1..0]" (rect -24 0 32 12)(font "Arial" ))
+		(text "Y" (rect 136 24 144 36)(font "Arial" ))
+		(line (pt 168 32)(pt 160 32)(line_width 3))
+	)
+	(parameter
+		"size"
+		"16"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 160 128))
+	)
+	(annotation_block (parameter)(rect 256 32 440 64))
+)
